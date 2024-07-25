@@ -37,7 +37,7 @@ In this section of the code, we evaluated several machine learning classifiers f
 
 ## Results
 
-Here is a table showing some data:
+Here is a table showing some data: CountVectorizer
 
 | Model        | Accuracy   | Precision | Recall   | F1 Score | Best Parameters |
 |----------------|-----------|--------------------|----------------|-----------|--------------------|
@@ -46,3 +46,13 @@ Here is a table showing some data:
 | K-Nearest Neighbors | 0.83 | 0.88     | 0.83 | 0.83 |   {'n_neighbors': 3}   |
 | Decision Tree | 0.93 | 0.93     | 0.93 | 0.93 |  {'max_depth': None}   |
 | Random Forest | 0.97 | 0.97     | 0.97 | 0.97 |   {'max_depth': None, 'n_estimators': 200} |
+
+Here is a table showing some data: Tfidf
+
+| Model        | Accuracy   | Precision | Recall   | F1 Score | Best Parameters |
+|----------------|-----------|--------------------|----------------|-----------|--------------------|
+| Naive Bayes | 0.97 | 0.97    | 0.97 | 0.97 |  {'alpha': 0.5}   |
+| Logistic Regression | 0.98 | 0.98    | 0.98 | 0.98 |   {'C': 10}   |
+| K-Nearest Neighbors | 0.62 | 0.81    | 0.62 | 0.60 |    {'n_neighbors': 3}   |
+| Decision Tree | 0.93 | 0.93     | 0.93 | 0.93 |  {'max_depth': None}   |
+| Random Forest | 0.98 | 0.98     | 0.98 | 0.98 |   {'max_depth': None, 'n_estimators': 200} |
