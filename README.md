@@ -41,4 +41,4 @@ Here is a table showing some data:
 
 | Model        | Accuracy   | Precision | Recall   | F1 Score | Best Parameters |
 |----------------|-----------|--------------------|----------------|-----------|--------------------|
-| Feature 1 | Detailed description of feature 1 | 1.0, 1.1, 1.2      | Feature 2 | Detailed description of feature 2 | 1.0, 2.0           |
+| Feature 1 | 0.95 | 0.95     | 0.95 | 0.95 |  {'alpha': 0.5}   |
