@@ -41,4 +41,8 @@ Here is a table showing some data:
 
 | Model        | Accuracy   | Precision | Recall   | F1 Score | Best Parameters |
 |----------------|-----------|--------------------|----------------|-----------|--------------------|
-| Feature 1 | 0.95 | 0.95     | 0.95 | 0.95 |  {'alpha': 0.5}   |
+| Naive Bayes | 0.95 | 0.95     | 0.95 | 0.95 |  {'alpha': 0.5}   |
+| Logistic Regression | 0.97 | 0.97    | 0.97 | 0.97 |   {'C': 1}   |
+| K-Nearest Neighbors | 0.83 | 0.88     | 0.83 | 0.83 |   {'n_neighbors': 3}   |
+| Decision Tree | 0.93 | 0.93     | 0.93 | 0.93 |  {'max_depth': None}   |
+| Random Forest | 0.97 | 0.97     | 0.97 | 0.97 |   {'max_depth': None, 'n_estimators': 200} |
