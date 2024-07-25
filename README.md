@@ -11,6 +11,8 @@ In the digital era, email is a crucial communication tool, but it faces the pers
 
 This project aims to build a robust and efficient Email Spam Classifier using machine learning techniques. By training the model on a comprehensive dataset of labeled emails from Kaggle, we aim to adapt to new and evolving spam techniques, providing a reliable solution for maintaining a spam-free inbox.
 
+<img src = "https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/pics/readme%20pic.png" style="width:1000px; height:300px;">
+
 ## Data Cleaning
 
 In our preprocessing pipeline for the email spam classification dataset, we began by cleaning the data. This involved removing unnecessary columns ('Unnamed: 0' and 'Unnamed: 0.1') from multiple dataframes and filtering out rows where the 'Body' column was empty. We then merged the cleaned dataframes and removed any duplicate entries. After merging, we reset the index of the dataframe to ensure it was properly ordered. <br>
