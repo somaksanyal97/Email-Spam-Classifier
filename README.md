@@ -66,3 +66,8 @@ In this section of the code, we evaluated several machine learning classifiers f
 <br>
 <img src = "https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/Pictures/Confusion%20Matrices%20(TfidfVectorizer).jpg" style="width:1000px; height:600px;">
 
+#Conclusion
+
+## Conclusion
+
+This project successfully developed an email spam classifier using various machine learning algorithms, leveraging both CountVectorizer and TfidfVectorizer for feature extraction. The models were evaluated based on performance metrics, demonstrating their capability to accurately distinguish between spam and legitimate emails. This approach provides a robust solution to enhance email security and efficiency in managing communication.
