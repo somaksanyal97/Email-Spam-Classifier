@@ -64,10 +64,8 @@ In this section of the code, we evaluated several machine learning classifiers f
 | Random Forest | 0.98 | 0.98     | 0.98 | 0.98 |   {'max_depth': None, 'n_estimators': 200} |
 
 <br>
-<img src = "https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/Pictures/Confusion%20Matrices%20(TfidfVectorizer).jpg" style="width:1000px; height:600px;">
-
-#Conclusion
+<img src = "https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/Pictures/Confusion%20Matrices%20(TfidfVectorizer).jpg" style="width:1000px; height:600px;"><br>
 
 ## Conclusion
 
-This project successfully developed an email spam classifier using various machine learning algorithms, leveraging both CountVectorizer and TfidfVectorizer for feature extraction. The models were evaluated based on performance metrics, demonstrating their capability to accurately distinguish between spam and legitimate emails. This approach provides a robust solution to enhance email security and efficiency in managing communication.
+This project successfully developed an email spam classifier using various machine learning algorithms, leveraging both CountVectorizer and TfidfVectorizer for feature extraction. The models were evaluated based on performance metrics, demonstrating their capability to accurately distinguish between spam and legitimate emails. The best performing models are the ones where the features are extracted using TfidfVectorizer and the models are trained using Logistic Regression or Random Forest Classifier. On both the occasions, the accuracy achieved is 98 %. 
