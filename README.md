@@ -39,7 +39,7 @@ In this section of the code, we evaluated several machine learning classifiers f
 
 ## Results
 
-Here is a table showing some data: CountVectorizer
+## Performance Metrics of ML Algorithms with CountVectorizer
 
 | Model        | Accuracy   | Precision | Recall   | F1 Score | Best Parameters |
 |----------------|-----------|--------------------|----------------|-----------|--------------------|
@@ -49,7 +49,18 @@ Here is a table showing some data: CountVectorizer
 | Decision Tree | 0.93 | 0.93     | 0.93 | 0.93 |  {'max_depth': None}   |
 | Random Forest | 0.97 | 0.97     | 0.97 | 0.97 |   {'max_depth': None, 'n_estimators': 200} |
 
-Here is a table showing some data: Tfidf
+<div style="display: flex; justify-content: space-around;">
+  <div style="text-align: center;">
+    <img src="https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/pics/readme%20pic.png" alt="CountVectorizer Performance" width="400"/>
+    <p>CountVectorizer Performance</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/pics/readme%20pic.png" alt="TfidfVectorizer Performance" width="400"/>
+    <p>TfidfVectorizer Performance</p>
+  </div>
+</div>
+
+## Performance Metrics of ML Algorithms with TfidfVectorizer
 
 | Model        | Accuracy   | Precision | Recall   | F1 Score | Best Parameters |
 |----------------|-----------|--------------------|----------------|-----------|--------------------|
