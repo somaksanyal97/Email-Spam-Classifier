@@ -11,7 +11,7 @@ In the digital era, email is a crucial communication tool, but it faces the pers
 
 This project aims to build a robust and efficient Email Spam Classifier using machine learning techniques. By training the model on a comprehensive dataset of labeled emails from Kaggle, we aim to adapt to new and evolving spam techniques, providing a reliable solution for maintaining a spam-free inbox.
 
-<img src = "https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/pics/readme%20pic.png" style="width:1000px; height:300px;">
+<img src = "https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/Pictures/readme%20pic.png" style="width:1000px; height:300px;">
 
 ## Data Cleaning
 
@@ -51,11 +51,11 @@ In this section of the code, we evaluated several machine learning classifiers f
 
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
-    <img src="https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/pics/readme%20pic.png" alt="CountVectorizer Performance" width="400"/>
+    <img src="https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/Pictures/Confusion%20Matrices%20(Count%20Vectorizer).jpg" alt="CountVectorizer Performance" width="400"/>
     <p>CountVectorizer Performance</p>
   </div>
   <div style="text-align: center;">
-    <img src="https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/pics/readme%20pic.png" alt="TfidfVectorizer Performance" width="400"/>
+    <img src="https://github.com/somaksanyal97/Email-Spam-Classifier/blob/main/Pictures/Confusion%20Matrices%20(TfidfVectorizer).jpg" alt="TfidfVectorizer Performance" width="400"/>
     <p>TfidfVectorizer Performance</p>
   </div>
 </div>
